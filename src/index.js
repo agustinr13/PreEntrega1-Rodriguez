@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import Navbar from './components/NavBar/NavBar';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <ItemListContainer greeting='CATALOGO EN CONSTRUCCION'/>
   </React.StrictMode>
 );
 
